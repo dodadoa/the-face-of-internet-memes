@@ -5,7 +5,6 @@ import './App.css';
 
 const GIPHY_API = 'https://api.giphy.com/v1/gifs/search'
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
-console.log(process.env)
 const GIFS_LIMIT = 50
 
 function App() {
