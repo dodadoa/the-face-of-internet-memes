@@ -30,12 +30,12 @@ function App() {
     fetch() 
   }, [searching])
 
-  useEffect(() => {
-    setTimeout(() => {
-      const shuffledGifs = shuffle(gifs)
-      setGifs(shuffledGifs)
-    }, 3000)
-  })
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     const shuffledGifs = shuffle(gifs)
+  //     setGifs(shuffledGifs)
+  //   }, 3000)
+  // })
 
   const boxStyle = () => ({
     width: window.innerWidth / GIFS_LIMIT,
